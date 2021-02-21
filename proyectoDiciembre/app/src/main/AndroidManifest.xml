@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyectodiciembre">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoDiciembre">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="Sobre Mi | Proyectos"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.proyectodiciembre.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainListaCompra"
+            android:label="Lista de la Compra"
+            android:parentActivityName=".SecondActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.proyectodiciembre.SecondActivity" />
+        </activity>
+        <activity
+            android:name=".SecondListaCompra"
+            android:label="Lista de la Compra"
+            android:parentActivityName=".MainListaCompra">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.proyectodiciembre.MainListaCompra" />
+        </activity>
+        <activity
+            android:name=".SumaMultiplica"
+            android:label="Suma y multiplica"
+            android:parentActivityName=".SecondActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.proyectodiciembre.SecondActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">proyectoDiciembre</string>
+    <string name="minombre">Antonio Quesada Cuadrado</string>
+    <string name="bienvenida">Bienvenida</string>
+    <string name="mifoto">Mi foto</string>
+    <string name="edittext_redsocial">http://www.instagram.com</string>
+    <string name="button_redsocial">Abrir Red Social</string>
+    <string name="edittext_localizacion">40.4835300,-3.3954400</string>
+    <string name="button_localizacion">Abrir Localización</string>
+    <string name="edittext_compartir">Mi proyecto me gusta</string>
+    <string name="button_compartir">Compartir Opinión</string>
+    <string name="listaCompra">Lista Compra</string>
+    <string name="tituloproyectos">PROYECTOS</string>
+    <string name="titulosobremi">SOBRE MÍ</string>
+    <string name="tituloListaCompra">Lista de la Compra</string>
+    <string name="botonAgregarIngrediente">Agregar</string>
+    <string name="sal">Sal</string>
+    <string name="azucar">Azúcar</string>
+    <string name="manzanas">Manzanas</string>
+    <string name="platanos">Plátanos</string>
+    <string name="cebollas">Cebollas</string>
+    <string name="pepinos">Pepinos</string>
+    <string name="leche">Leche</string>
+    <string name="almendras">Almendras</string>
+    <string name="naranjas">Naranjas</string>
+    <string name="lechuga">Lechuga</string>
+    <string name="loctienda">Localización Tienda</string>
+    <string name="tiendaedittext">Supermercados Mercadona</string>
+    <string name="suma">Suma</string>
+    <string name="multiplica">Multiplica</string>
+    <string name="numero1">Introduce el primer número:</string>
+    <string name="numero2">Introduce el segundo número:</string>
+    <string name="titulo">CÁLCULOS DE DOS NÚMEROS</string>
+    <string name="resultado">Resultado</string>
+    <string name="calculos">Cálculos</string>
+</resources>
